@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name= "keywords" content="test, site, space, space travel, space colony, planets">
+  <meta name= "description" content="Тестовый сайт о космических путишествиях">
+  <title>Astro travel</title>
+  <link rel="stylesheet" href="css/mainStyle.css" type="text/css">
+  <link href="image/rocket.ico" rel="shortcut icon" type="image/logo-icon">
+</head>
+<body>
+  <div id= "content">
+  <header>
+    <span id="logo"><a href= "index.html">Astro travel</a></span>
+    <span id= "contact"><a href= "about.html">О нас</a></span>
+    <span id= "registration"><a href= "reg.html">Регистрация</a></span>
+  </header>
+
+  <div class="sidenav">
+  <span>Миссии:</span>
+  <a href="pageMoon.html">Луна</a>
+  <a href="pageMars.html">Марс</a>
+  <a href="pageVenus.html">Венера</a>
+  <a href="pageTitan.html">Титан</a>
+  </div>
+  <div id="articles">
+<form class="subform"  method="post" action="submit.html">
+	<p>
+		<label for="name">Как вас зовут?</label>
+		<input type="text" name="name" id="name">
+	</p>
+	<p>
+		<label for="email">Ваш адрес электронной почты</label>
+		<input type="text" name="email" id="email">
+	</p>
+	<p>Навыки выживания в условиях космоса
+		<label class="skill_type">
+			<input name="skill" type="radio" value="novice">
+			Новичок</label>
+		<label class="skill_type">
+			<input name="skill" type="radio" value="intermediate">
+			Опытный</label>
+		<label class="skill_type">
+			<input name="skill" type="radio" value="advanced">
+			Профи</label>
+	</p>
+	<p>
+		<label for="refer">Какую миссию хотите выбрать? </label>
+		<select name="refer" id="refer">
+			<option value="null">Выберите вариант</option>
+			<option value="1">Луна</option>
+			<option value="2">Марс</option>
+			<option value="3">Титан</option>
+			<option value="4">Венера</option>
+		</select>
+	</p>
+	<p>
+		<input type="submit" value="Отправить">
+	</p>
+</form>
+    </div>
+  </div>
+  <div id= "footer">
+  <footer>
+    <span class="left">Тестовый сайт студента: Широкова Ф.А. Все права защищены &copy; 2021 </span>
+  </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,510 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 1em;
+  font-family: "Siliguri", sans-serif;
+  line-height: 135%;
+}
+
+body {
+  font-family: Trebuchet MS, Helvetica;
+  background-color: black;
+  background-image: url(../image/187_PIA17174.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+}
+
+
+::selection {
+  background-color: white;
+  color: grey;
+}
+
+::-moz-selection {
+  background-color: white;
+  color: grey;
+}
+
+
+
+
+#logo  {
+
+  background-image: url(../image/3fdaaf0000e825ee1477d6e0d30db980.gif);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  cursor: pointer;
+  font-size: 3.5em;
+  line-height: 45px;
+  margin-left: -5px;
+  font-family: 'Roboto', serif;
+
+}
+
+ #logo a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+ #logo a:hover  {
+  text-decoration: none;
+  background-color: white;
+  color: grey;
+}
+
+#contact {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 45px;
+  margin-left: 20px;
+  font-family: 'Roboto', serif;
+}
+
+#contact a {
+ text-decoration: none;
+ color: white;
+}
+
+#contact a:hover  {
+ text-decoration: none;
+ background-color: white;
+ color: grey;
+}
+
+#registration {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 45px;
+  margin-left: 20px;
+  font-family: 'Roboto', serif;
+}
+
+#registration a {
+ text-decoration: none;
+ color: white;
+}
+
+#registration a:hover  {
+ text-decoration: none;
+ background-color: white;
+ color: grey;
+}
+
+.main {
+  color: white;
+  font-size: 3em;
+
+}
+
+.main h1 {
+  padding-top: 5%;
+  text-align: right;
+  margin-right: 10%;
+
+}
+
+.main h3 {
+  text-align: right;
+  margin-top: 5%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+
+.info {
+  margin-left: 40%;
+  padding-top: 1%;
+  text-align: right;
+  margin-right: 10%;
+  line-height: 1em;
+}
+
+/*Стили форм*/
+
+#articles {
+  padding-top: 2%;
+  margin-left: 40%;
+}
+
+ #articles p {
+	margin-bottom: 25px;
+  font-family: 'Roboto', serif;
+	font-weight: normal;
+	font-size: 18pt;
+	color: white;
+	padding-left: 20%;
+
+
+}
+
+.skill_type {
+	font-size: 12pt;
+	color: white;
+
+}
+
+
+#articles input{
+	background-color: #e3e6e8;
+	margin-left: 25px;
+	padding-right: 50px;
+  border-radius: 2px;
+}
+
+#articles input[name=skill] {
+	margin-left: 0px;
+}
+
+#articles input[type=submit] {
+	color: white;
+  text-align: center;
+	background: none;
+  margin-left: 40%;
+}
+
+#articles option {
+	font-size: 12pt;
+}
+
+
+/*Конец стилей форм*/
+
+
+/*Стили для луны */
+.sidenav_Moon {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav_Moon  a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav_Moon  span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav_Moon  a:hover {
+    color: #f1f1f1;
+}
+
+.Moon_body {
+  background-image: url(../image/outerspace-moon-united-states-trump.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.Moon_text {
+  margin-left: 55%;
+  font-size: 1em;
+  text-align: right;
+  line-height:1.3em;
+  margin-top: 3%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+
+iframe {
+  margin-left: 60%;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+/*Конец стилей луны */
+/*Стили для марса*/
+.sidenav_Mars {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav_Mars  a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav_Mars  span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav_Mars  a:hover {
+    color: #f1f1f1;
+}
+
+.Mars_body {
+  background-image: url(../image/mars_july18.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.Mars_text {
+  margin-left: 50%;
+  text-align: right;
+  line-height:1em;
+  margin-top: 3%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+
+.Mars_audio {
+  margin-left: 75%;
+  text-align: right;
+  line-height:1em;
+  margin-top: 1%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+/*Конец стилей для марса*/
+/*Стили для Венеры*/
+
+.sidenav_Venus {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav_Venus  a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav_Venus  span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav_Venus  a:hover {
+    color: #f1f1f1;
+}
+
+.Venus_body {
+  background-image: url(../image/PIA21904.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.Venus_text {
+  margin-left: 55%;
+  font-size: 36px;
+  text-align: right;
+  line-height:1.3em;
+  margin-top: 3%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+
+video {
+  margin-left: 70%;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+/*Конец стилей для Венеры*/
+
+/*Стили для Титана*/
+.sidenav_Titan {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav_Titan a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav_Titan span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav_Titan a:hover {
+    color: #f1f1f1;
+}
+
+.Titan_body {
+  background-image: url(../image/Titan_NPR.jpeg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.Titan_text {
+  margin-left: 55%;
+  font-size: 1em;
+  text-align: right;
+  line-height:1.3em;
+  margin-top: 3%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+/*Конец стилей для Титана*/
+
+
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.footer {
+
+  padding: 1%;
+  border-top: 2px solid silver;
+  margin-top: 10px;
+  padding-bottom: 2%;
+}
+
+.left {
+  float: left;
+  margin-left: 5px;
+}
+
+#content:after {
+  content: "";
+  display: block;
+}
+
+#footer, #content:after {
+  height: 10px;
+}
+
+#content {
+  min-height: 94%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 699px) {
+    .Titan_text .Venus_text .Mars_text .Moon_text  {
+    margin-left: 55%;
+    font-size: 0.5em;
+    text-align: right;
+    line-height:1em;
+    margin-top: 3%;
+    color: #cad5e0;
+    margin-right: 10%;
+  }
+
+
+.main {
+  font-size: 0.7em;
+}
+.main h1 {
+  padding-top: 5%;
+  text-align: right;
+  margin-right: 10%;
+
+}
+
+.main h3 {
+  text-align: right;
+  margin-top: 5%;
+  color: #cad5e0;
+  margin-right: 10%;
+}
+}
+
+
+@media screen and (max-height: 699px) {
+    .sidenav { width: 50px; padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
